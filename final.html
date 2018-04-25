@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>All insights</title>
+</head>
+<style>
+body{
+    position: relative;
+    background-image: url("plain.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+</style>
+<body>
+<center> <h1>What students think<h1><center>
+<img style="padding:30" src="images/pos.png" alt="postitve wordcloud">
+<img style="padding:30" src="images/neg.png" alt="negative wordcloud">
+<?php
+$file1="data/posdata.txt"
+$lines=file($file1);
+echo"$lines"
+
+
+</body>
+
+</html>
